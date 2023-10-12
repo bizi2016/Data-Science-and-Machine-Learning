@@ -9,6 +9,8 @@
 - 效果 UMAP, t-SNE > PCA
 - 运算时间：PCA < UMAP < t-SNE（t-SNE时间复杂度太大，大数据会非常久）
 
+## MNIST database
+
 ![PCA](PCA.png "PCA")
 
 ![t-SNE](t-SNE.png "t-SNE")
