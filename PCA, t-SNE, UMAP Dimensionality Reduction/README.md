@@ -11,8 +11,8 @@
 
 ## MNIST database
 
-![PCA](PCA.png "PCA")
+![PCA](mnist/PCA.png "PCA")
 
-![t-SNE](t-SNE.png "t-SNE")
+![t-SNE](mnist/t-SNE.png "t-SNE")
 
-![UMAP](UMAP.png "UMAP")
+![UMAP](mnist/UMAP.png "UMAP")
