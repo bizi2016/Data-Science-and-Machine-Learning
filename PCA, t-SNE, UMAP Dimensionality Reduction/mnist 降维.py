@@ -90,7 +90,16 @@ print('UMAP')
 plt.savefig('UMAP.png', dpi=200)
 plt.close()
 
+"""
+data.shape = (70000, 784)
+label.shape = (70000,)
 
+PCA
+t-SNE
+中间一堆警告，因为版本更新迭代问题，希望以后能够修复吧
+看着很烦，但是没啥后果
+UMAP
+"""
 
 
 
