@@ -19,11 +19,11 @@
 
 ## MNIST 3D
 
-![PCA](mnist_3d/PCA.png "PCA")
+![PCA](mnist_3d/PCA.PNG "PCA")
 
-![t-SNE](mnist_3d/t-SNE.png "t-SNE")
+![t-SNE](mnist_3d/t-SNE.PNG "t-SNE")
 
-![UMAP](mnist_3d/UMAP.png "UMAP")
+![UMAP](mnist_3d/UMAP.PNG "UMAP")
 
 ## float 2D
 
