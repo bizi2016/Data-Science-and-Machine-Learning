@@ -101,9 +101,11 @@ plt.close()
 """
 
 
-data['class'] = data['class'].apply(lambda x: x.replace('<=50K', '0'))
-data['class'] = data['class'].apply(lambda x: x.replace('>50K', '1'))
-data['class'] = data['class'].astype(int)
+# data['class'] = data['class'].apply(lambda x: x.replace('<=50K', '0'))
+# data['class'] = data['class'].apply(lambda x: x.replace('>50K', '1'))
+# data['class'] = data['class'].astype(int)
+
+data['class'] = data['class'].str.strip().replace({'<=50K': 0, '>50K': 1})
 
 def gen_col(name):
 
@@ -115,13 +117,13 @@ def gen_col(name):
     plt.grid()
     plt.tight_layout()
 
-    # plt.show()
+    plt.show()
 
-    plt.savefig('image/barplot/' + name[1] + '.png', dpi=200)
-    plt.close()
+    # plt.savefig('image/barplot/' + name[1] + '.png', dpi=200)
+    # plt.close()
 
 
-"""
+
 names = [ ['workclass', 'Workclass'],
           ['education', 'Education'],
           ['marital-status', 'Marital Status'],
@@ -135,7 +137,7 @@ names = [ ['workclass', 'Workclass'],
 for name in names:
     print(name)
     gen_col(name)
-"""
+
 
 """
 sns.set( style='darkgrid', font_scale=1.5 )
