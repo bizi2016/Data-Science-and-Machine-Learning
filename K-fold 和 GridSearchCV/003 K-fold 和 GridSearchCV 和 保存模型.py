@@ -261,6 +261,23 @@ joblib.dump(best_model, 'best_model.pkl')
 # loaded_model = joblib.load('best_model.pkl')
 
 """
+scale_pos_weight = 3.179173440574998
+
+Fitting 5 folds for each of 1296 candidates, totalling 6480 fits
+
+程序执行时间：13488.77秒
+
+最优参数
+====================
+{'colsample_bytree': 0.7, 'learning_rate': 0.1, 'max_depth': 5, 'min_child_weight': 3, 'n_estimators': 300, 'subsample': 0.9}
+
+最优AUC
+====================
+0.9305210671928135
+
+mean_acc = 0.8366978115852106
+mean_f1 = 0.7170647902030296
+mean_auc = 0.9305210671928135
 """
 
 
