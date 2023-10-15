@@ -23,4 +23,5 @@ params = {
     'n_jobs': -1,  # 一个CPU填不满显卡
 }
 ```
-100 GPU.png
+
+![img](100%20GPU.png)
